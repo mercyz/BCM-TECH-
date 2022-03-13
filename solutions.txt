@@ -1,0 +1,32 @@
+PHP
+1 = The H1 Tag in the PHPTEST document file does not have any closing tag which will resolve to an error (break) in the program.
+2 =  The variable $pages is not defined but decleared 
+3 = The while loop is not closed this will result to an error because a closing currly braces "}" is missing 
+4:  $content = get_the_content() will be ignorned as "$content" is been reassigned with another value  ($content = preg_replace_callback('#[ad]#')
+5 = The Regex '#[ad]#' will first replace 'a' with a div and then 'd' with a new div leaving the bracket 
+6 = Functions are expected to return values and not echo them.
+
+WORDPRESS
+Image Upload Error
+1 = Uploading error: on wordpress can come due to permission reasons.
+2 = Image file size too large to be uploaded / Image format not supported
+3 = Caching issue / Http error caused by wordpress memory limit
+
+Serving Wordpress Faster
+ -By removing any unused plugin and themes, also adding a caching system
+
+CSS
+By using media Queries to add styles based on screen size
+
+HTML
+1 = The Abbrevation tag attribute name="lobortis" is supposed to be title="lobortis"
+2 = The Image tag attribute with spelling is wrong.. correct attribute should be "width"
+3 = The closing tag for "</code>" is suppose to come after the closing tag </b>
+4 = spaces between closing tag is not supported </a  > this is wrong. 
+5  = Quotation marks are encouraged when adding attributes. example <img width="100" /> this is encouraged for the sake of compactability with older browsers version 
+
+
+Techniques to help Improve search engine
+ - Adding the appropraite meta tags with the right keywords, description and content
+ -Using open graph meta tags
+ -Using the right tags and good attributes to better describe the tags
